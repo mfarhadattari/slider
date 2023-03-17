@@ -1,0 +1,35 @@
+.sliders-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.slider {
+    height: 360px;
+    width: 650px;
+    margin: 0 auto;
+    
+}
+
+.slider img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.auto-view-stop-btns {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.primary-btn {
+    font-size: 50px;
+    color: rgba(169, 165, 168, 0.518);
+    background: transparent;
+    border: none;
+}
